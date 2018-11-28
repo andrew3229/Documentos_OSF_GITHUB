@@ -1,0 +1,9 @@
+EXPRESS
+npm init --yes// crea el proyecto
+npm install express mysql// conecta base de datos y descarga express
+npm run dev //activa servidor
+npm i express -S //instala express
+node index.js //activar 
+npm i -S body-parser //recoge el rest
+npm i -D nodemon | npm i nodemon -D // sirve para no tener que reiniciar el server, instala versiones por defecto
+npm -start //arranca luego de instalar la version anterior

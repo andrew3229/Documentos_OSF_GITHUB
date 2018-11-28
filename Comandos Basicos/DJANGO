@@ -1,0 +1,8 @@
+DJANGO
+python -m pip install virualenv/python -m venv myvecd nv-->Instalar MV
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+django-admin.py startapp mesero
+python -m pip freeze
+django-admin.py startproject WaiterHB
