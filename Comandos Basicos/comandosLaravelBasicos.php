@@ -20,3 +20,7 @@ Instalar Laravel
 14. php .\artisan db:seed --> ejecuta los Seeders
 15. php artisan migrate:fresh --seed --> elimina la bd y carga la informacion de los campos
 16. php .\artisan make:model Profession--> crear un Modelo de la BD
+16. php artisan tinker -> me permite ver resultados directamente.
+17. php artisan make:factory "ProfessionFactory"--> me permite el generar datos aleatorios en BD
+18. php artisan make:factory ProfessionFactory --model=Profession --> permite crear la asociacion directamente desde el factory (desde consola se genera)
+19. php artisan make:model Skill -mf --> genera el modelo, factory y migracion en bd
