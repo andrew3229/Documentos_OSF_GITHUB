@@ -24,3 +24,5 @@ Instalar Laravel
 17. php artisan make:factory "ProfessionFactory"--> me permite el generar datos aleatorios en BD
 18. php artisan make:factory ProfessionFactory --model=Profession --> permite crear la asociacion directamente desde el factory (desde consola se genera)
 19. php artisan make:model Skill -mf --> genera el modelo, factory y migracion en bd
+20. php artisan route:list --> ver las listas de urls que tengo en el sistema.
+21. composer update -->actualiza la version de laravel
