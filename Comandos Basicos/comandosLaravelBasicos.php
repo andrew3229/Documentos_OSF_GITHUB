@@ -1,4 +1,4 @@
-LARAVEL
+LARAVEL COMIENZO 
 Instalar composer-> 1.https://getcomposer.org/download/
 2.https://getcomposer.org/doc/00-intro.md#globally
 Instalar Laravel
@@ -12,7 +12,7 @@ Instalar Laravel
 8. php .\artisan migrate:reset -> permite actualizar informacion de la bd que se crea nuevamente (borra todas las tablas, es necesario colocar el punto 7)
 9.php .\artisan migrate:refresh ->elimina la tabla y vuelve a cargar la bd con los cambios 
 (borra todos la informacion )
-10. php artisan make:migration "add_profession_to_users" -> crea la base un archivo para generar una nueva tabla
+10. php artisan make:migration "add_professions_to_users" -> crea la base un archivo para generar una nueva tabla
 11. php artisan migrate: rollback --> Laravel regresará el último lote de migraciones ejecutado
 12. php artisan migrate: fresh --> borra todas las tablas de la bd
 13.php .\artisan make:seeder ProfessionSeeder --> Crea un archivo para cargar datos directo en la bd
@@ -26,3 +26,17 @@ Instalar Laravel
 19. php artisan make:model Skill -mf --> genera el modelo, factory y migracion en bd
 20. php artisan route:list --> ver las listas de urls que tengo en el sistema.
 21. composer update -->actualiza la version de laravel
+22. php artisan make:request CreateUserRequest -->crea los requerimientos base para llamarlos desde los controladores
+
+
+
+
+
+
+
+
+LARAVEL AUTENTIFICAR-LOGIN
+1.  php .\artisan make:auth --> me permite usar el login base de laravel para sesiones
+2. php .\artisan make:middleware Admin ->crea los middleware
+
+
