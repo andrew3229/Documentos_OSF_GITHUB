@@ -37,6 +37,6 @@ Instalar Laravel
 
 LARAVEL AUTENTIFICAR-LOGIN
 1.  php .\artisan make:auth --> me permite usar el login base de laravel para sesiones
-2. php .\artisan make:middleware Admin ->crea los middleware
+2.  php .\artisan make:middleware Admin ->crea los middleware
 
 
