@@ -36,7 +36,13 @@ Instalar Laravel
 
 
 LARAVEL AUTENTIFICAR-LOGIN
-1.  php .\artisan make:auth --> me permite usar el login base de laravel para sesiones
-2.  php .\artisan make:middleware Admin ->crea los middleware
+1. php .\artisan make:auth --> me permite usar el login base de laravel para sesiones
+2. php .\artisan make:middleware Admin ->crea los middleware
+3. php .\artisan make:test UserTest --unit ->agrega una prueba en la carpeta unit
+4. php .\artisan make:model Admin -fm -> crea un factory y un modelo
+5. ->creamos directiva para que reconozca el blade en vista
 
+
+INSTALAR TEMA 
+1. npm install admin-lte@v3.0.0-alpha.2 --save -> instala admin por defecto
 
