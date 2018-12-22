@@ -28,8 +28,8 @@ Instalar Laravel
 21. composer update -->actualiza la version de laravel
 22. php artisan make:request CreateUserRequest -->crea los requerimientos base para llamarlos desde los controladores
 
-
-
+23. php artisan make:controller Api\BlogController --resource ->crea la estructura basica para un controlador (index, show, delete)
+24. php artisan make:model Institución --migration --factory ->crea la base de datos,app y el modelo necesario para conexion
 
 
 
@@ -46,3 +46,8 @@ LARAVEL AUTENTIFICAR-LOGIN
 INSTALAR TEMA 
 1. npm install admin-lte@v3.0.0-alpha.2 --save -> instala admin por defecto
 
+
+
+
+\\locales\\id_local\\local\\nombre_imagen
+\\locales\\id_local\\productos\\nombre_imagen
