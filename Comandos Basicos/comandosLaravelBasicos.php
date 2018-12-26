@@ -30,7 +30,7 @@ Instalar Laravel
 
 23. php artisan make:controller Api\BlogController --resource ->crea la estructura basica para un controlador (index, show, delete)
 24. php artisan make:model Institución --migration --factory ->crea la base de datos,app y el modelo necesario para conexion
-
+25.php artisan make: resource-view categories -mrp --> crea la vista  o recurso de categoria 'm' crea el modelo, 'r' crea el controlador restfull, 'p' agrega una ruta al archivo 'Routes\web.php'
 
 
 
@@ -46,8 +46,3 @@ LARAVEL AUTENTIFICAR-LOGIN
 INSTALAR TEMA 
 1. npm install admin-lte@v3.0.0-alpha.2 --save -> instala admin por defecto
 
-
-
-
-\\locales\\id_local\\local\\nombre_imagen
-\\locales\\id_local\\productos\\nombre_imagen
