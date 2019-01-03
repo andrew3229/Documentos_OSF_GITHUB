@@ -46,3 +46,5 @@ LARAVEL AUTENTIFICAR-LOGIN
 INSTALAR TEMA 
 1. npm install admin-lte@v3.0.0-alpha.2 --save -> instala admin por defecto
 
+
+
