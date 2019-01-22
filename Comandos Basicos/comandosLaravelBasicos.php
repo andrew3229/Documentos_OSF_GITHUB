@@ -32,7 +32,7 @@ Instalar Laravel
 24. php artisan make:model Institución --migration --factory ->crea la base de datos,app y el modelo necesario para conexion
 25.php artisan make: resource-view categories -mrp --> crea la vista  o recurso de categoria 'm' crea el modelo, 'r' crea el controlador restfull, 'p' agrega una ruta al archivo 'Routes\web.php'
 
-
+26.php artisan make:model Note -m crea el modelo y las migraciones
 
 
 LARAVEL AUTENTIFICAR-LOGIN
