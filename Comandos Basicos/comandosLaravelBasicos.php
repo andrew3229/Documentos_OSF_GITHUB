@@ -14,7 +14,7 @@ Instalar Laravel
 (borra todos la informacion )
 10. php artisan make:migration "add_professions_to_users" -> crea la base un archivo para generar una nueva tabla
 11. php artisan migrate: rollback --> Laravel regresará el último lote de migraciones ejecutado
-12. php artisan migrate: fresh --> borra todas las tablas de la bd
+12.php artisan migrate: fresh --> borra todas las tablas de la bd
 13.php .\artisan make:seeder ProfessionSeeder --> Crea un archivo para cargar datos directo en la bd
 
 14. php .\artisan db:seed --> ejecuta los Seeders
