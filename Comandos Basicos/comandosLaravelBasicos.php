@@ -2,7 +2,9 @@ LARAVEL COMIENZO
 Instalar composer-> 1.https://getcomposer.org/download/
 2.https://getcomposer.org/doc/00-intro.md#globally
 Instalar Laravel
-1.composer create-project --prefer-dist laravel/laravel "blog"
+0.composer global require "laravel/installer"
+- 
+1.composer create-project --prefer-dist laravel/laravel "nuevo proyecto"
 2.abrir serve->  php artisan serve
 3 .\vendor\bin\phpunit --> pruebas unitarias server
 4. php .\artisan make:test UserModuleTest --> Crea una prueba Unitaria 
